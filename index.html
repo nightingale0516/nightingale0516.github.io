@@ -65,13 +65,13 @@
   .sec-head a{font-size:13px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;font-weight:600;}
   .sec-head a:hover{text-decoration:underline;}
 
-  /* News */
+  /* Mercury -N */
   .news li{list-style:none;display:grid;grid-template-columns:120px 1fr;gap:22px;padding:16px 0;border-bottom:1px solid var(--rule);}
   .news time{font-size:13px;color:var(--ink-soft);letter-spacing:.04em;padding-top:2px;}
   .news .tag{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;background:var(--navy);color:#fff;padding:2px 8px;margin-right:8px;vertical-align:middle;}
   .news .tag.award{background:var(--gold);color:var(--navy-deep);}
 
-  /* Research grid */
+  /* Venus -R */
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
   .card{background:var(--paper);border:1px solid var(--rule);border-top:4px solid var(--navy);padding:26px 24px 28px;}
   .card h3{font-family:var(--serif);font-weight:600;font-size:19px;color:var(--navy);margin-bottom:10px;}
@@ -79,14 +79,14 @@
   .card a{display:inline-block;margin-top:14px;font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;text-decoration:none;}
   .card a:hover{text-decoration:underline;}
 
-  /* Publications */
+  /* Earth -P */
   .pubs li{list-style:none;padding:14px 0;border-bottom:1px solid var(--rule);font-size:15px;}
   .pubs .authors{color:var(--ink-soft);}
   .pubs .title{font-weight:600;}
   .pubs .venue{font-style:italic;}
   .pubs .badge{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-left:6px;}
 
-  /* Join */
+  /* Jupitor -J */
   .join{background:var(--navy);color:#fff;text-align:center;}
   .join h2{font-family:var(--serif);font-weight:600;font-size:28px;}
   .join p{max-width:640px;margin:14px auto 0;color:#c9d4e3;}
@@ -102,10 +102,10 @@
   .copyright{border-top:1px solid rgba(255,255,255,.12);text-align:center;padding:16px;font-size:12px;}
 
   /* =====================================================================
-     ここから追加分（タブ切り替え・各ページの部品）
+     Conetnts 2026.7 作成．
      ===================================================================== */
 
-  /* タブの表示切替：JSが動かない環境では全タブが縦に並んで表示されます */
+  /* タブの表示切替：JSが動かない環境では全タブが縦に並んで表示される */
   .has-js .panel{display:none;}
   .has-js .panel.is-active{display:block;animation:fadeIn .4s ease both;}
   @keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
@@ -120,11 +120,11 @@
   .page-hero .en{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:8px;}
   .page-hero p{margin-top:12px;font-size:15.5px;color:#d5deea;max-width:640px;}
 
-  /* 文章の差し替え欄 */
+  /* 文章の差し替え */
   .edit{color:var(--ink-soft);border-bottom:1px dotted #b9c0ca;}
   .page-hero .edit,.join .edit{color:#cdd8e6;border-bottom-color:rgba(255,255,255,.4);}
 
-  /* 図・写真のプレースホルダ */
+  /* 図・写真関係 */
   .ph{background:var(--stone);border:1px solid var(--rule);display:grid;place-items:center;
       text-align:center;color:var(--ink-soft);font-size:12px;letter-spacing:.06em;
       text-transform:uppercase;padding:16px;}
@@ -145,7 +145,7 @@
   .deflist b{min-width:100px;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
              color:var(--navy);font-weight:700;padding-top:4px;}
 
-  /* メンバー */
+  /* Saturn */
   .pi{display:grid;grid-template-columns:240px 1fr;gap:36px;align-items:start;}
   .pi h3{font-family:var(--serif);font-weight:600;font-size:24px;color:var(--navy);}
   .role{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:4px 0 14px;}
@@ -158,7 +158,7 @@
   .person h4{font-family:var(--serif);font-weight:600;font-size:16px;color:var(--navy);margin:12px 0 2px;}
   .person p{font-size:13px;color:var(--ink-soft);}
 
-  /* 年ごとの見出し（News / Publications） */
+  /* 見出し（Mercury / Earth） */
   .year{display:grid;grid-template-columns:110px 1fr;gap:24px;}
   .year+.year{margin-top:36px;}
   .year h3{font-family:var(--serif);font-weight:600;font-size:20px;color:var(--navy);letter-spacing:.04em;}
@@ -167,7 +167,7 @@
                  text-decoration:none;margin-right:14px;}
   .pubs .links a:hover{text-decoration:underline;}
 
-  /* アクセス */
+  /* Uranus */
   .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start;}
   .map{aspect-ratio:4/3;}
   .map iframe{width:100%;height:100%;border:0;}
@@ -227,14 +227,14 @@
 <main>
 
 <!-- ==================================================================
-     タブ 1／Home
+     タブ 1
      ================================================================== -->
 <div class="panel is-active" id="home">
 
   <div class="hero">
     <div class="wrap">
       <h1>Welcome to Our Laboratory</h1>
-      <p>埼玉大学教育学部 技術・情報専修 機械技術研究室のページです．<br>GitHubおよびHTMLの練習ページでもあります．</p>
+      <p>埼玉大学教育学部 技術・情報専修 機械技術研究室のページです．<br>開発プラットフォームやHTMLの勉強ページでもあります．</p>
       <a class="cta" href="#research">Explore Our Research</a>
     </div>
   </div>
